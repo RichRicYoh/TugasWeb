@@ -1,0 +1,365 @@
+body {
+  margin: 0;
+  scroll-behavior: smooth;
+  background: radial-gradient(circle at top left, #ffffff, #f0efef);
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 65px;
+  box-shadow: 1px 12px 20px rgb(208, 208, 208);
+}
+.ulnav {
+  padding-left: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+.linav {
+  padding-left: 50px;
+  font-family: helvetica;
+  font-size: 15px;
+  color: rgb(95, 95, 95);
+}
+.txt {
+  font-family: helvetica;
+  font-weight: bold;
+  font-size: 16px;
+}
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 5px;
+  padding-top: 20px;
+}
+.hm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 40px;
+  padding-top: 20px;
+  list-style: none;
+  font-family: calibri;
+}
+.co {
+  font-family: calibri;
+  font-weight: bold;
+  font-size: 30px;
+}
+.col2 {
+  margin: 10px;
+  padding-left: 100px;
+}
+.btn {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: 40px;
+  width: 130px;
+  background-color: rgb(52, 52, 52);
+  border: 1 px transparent;
+  color: rgb(229, 227, 227);
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.mai {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+.or {
+  background-color: transparent;
+}
+.container {
+  display: flex;
+  width: 300px;
+  padding: 50px 0;
+  border-radius: 8px;
+  background: transparent;
+  row-gap: 30px;
+  flex-direction: column;
+  align-items: center;
+}
+.circular-progress {
+  position: relative;
+  height: 95px;
+  width: 95px;
+  border-radius: 50%;
+  background: conic-gradient(#545454 3.6deg, #ededed 0deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.circular-progress::before {
+  content: "";
+  position: absolute;
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.progress-value {
+  position: relative;
+  font-size: 20px;
+  font-weight: 600;
+  color: #4f4f4f;
+}
+.text {
+  font-size: 13px;
+  font-weight: 500;
+  color: #606060;
+}
+.container1 {
+  display: flex;
+  width: 300px;
+  padding: 50px 0;
+  border-radius: 8px;
+  background: transparent;
+  row-gap: 30px;
+  flex-direction: column;
+  align-items: center;
+}
+.circular-progress1 {
+  position: relative;
+  height: 95px;
+  width: 95px;
+  border-radius: 50%;
+  background: conic-gradient(#545454 3.6deg, #ededed 0deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.circular-progress1::before {
+  content: "";
+  position: absolute;
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.progress-value1 {
+  position: relative;
+  font-size: 20px;
+  font-weight: 600;
+  color: #4f4f4f;
+}
+.circular-progress2 {
+  position: relative;
+  height: 95px;
+  width: 95px;
+  border-radius: 50%;
+  background: conic-gradient(#545454 3.6deg, #ededed 0deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.circular-progress2::before {
+  content: "";
+  position: absolute;
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.progress-value2 {
+  position: relative;
+  font-size: 20px;
+  font-weight: 600;
+  color: #4f4f4f;
+}
+.circular-progress3 {
+  position: relative;
+  height: 95px;
+  width: 95px;
+  border-radius: 50%;
+  background: conic-gradient(#545454 3.6deg, #ededed 0deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.circular-progress3::before {
+  content: "";
+  position: absolute;
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.progress-value3 {
+  position: relative;
+  font-size: 20px;
+  font-weight: 600;
+  color: #4f4f4f;
+}
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 100px;
+}
+.gambar1 {
+  height: 280px;
+  border-radius: 90px;
+  box-shadow: 1px 1px 8px grey;
+}
+.proful {
+  list-style: none;
+  padding-right: 90px;
+}
+.li1 {
+  font-family: Calibri;
+  padding-bottom: 20px;
+}
+.lil {
+  font-family: roboto;
+  font-size: 14px;
+  font-weight: lighter;
+  color: #606060;
+}
+.gris {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+  color: rgb(173, 173, 173);
+}
+.bg {
+  padding-left: 80px;
+  list-style: none;
+  padding-bottom: 15px;
+}
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  border: 2px solid black;
+  height: 280px;
+  box-shadow: 12px 12px 12px grey;
+}
+.ul2 {
+  list-style: none;
+  padding-left: 13px;
+  margin: 25px;
+  width: 1200px;
+}
+.gbr {
+  padding-right: 20px;
+}
+.footer {
+  box-shadow: 1px 3px 80px grey;
+}
+.mainfoot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fb {
+  padding-top: 10px;
+  padding-right: 200px;
+}
+.m2 {
+  padding-top: 10px;
+  padding-right: 200px;
+}
+.ig {
+  padding-top: 10px;
+}
+.fb a::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: rgb(220, 57, 57);
+  margin: auto;
+  display: block;
+}
+.fb a:hover::after {
+  width: 55%;
+  transition: width 0.1s linear;
+}
+.fb a:hover::after {
+  width: 55%;
+  transition: width 0.1s linear;
+}
+.m2 a::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: rgb(220, 57, 57);
+  margin: auto;
+  display: block;
+}
+.m2 a:hover::after {
+  width: 60%;
+  transition: width 0.1s linear;
+}
+.m2 a:hover::after {
+  width: 60%;
+  transition: width 0.1s linear;
+}
+.ig a::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: rgb(220, 57, 57);
+  margin: auto;
+  display: block;
+}
+.ig a:hover::after {
+  width: 55%;
+  transition: width 0.1s linear;
+}
+.ig a:hover::after {
+  width: 55%;
+  transition: width 0.1s linear;
+}
+
+a:hover {
+  transition: 0.2s ease-in-out;
+  scroll-behavior: smooth;
+}
+.linav:hover {
+  color: rgb(220, 57, 57);
+  transition: 0.3s ease-in;
+  scroll-behavior: smooth;
+}
+.linav a::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: rgb(220, 57, 57);
+  margin: auto;
+  display: block;
+  scroll-behavior: smooth;
+}
+.linav a:hover::after {
+  width: 100%;
+  transition: width 0.1s linear;
+  scroll-behavior: smooth;
+}
+a:link {
+  text-decoration: none;
+  color: rgba(198, 198, 198, 0.933);
+  scroll-behavior: smooth;
+}
+a:visited {
+  color: rgba(198, 198, 198, 0.933);
+  scroll-behavior: smooth;
+}
+a:active {
+  color: rgba(198, 198, 198, 0.933);
+  scroll-behavior: smooth;
+}
+a:hover {
+  color: rgb(220, 57, 57);
+  transition: 0.1s ease-in;
+  scroll-behavior: smooth;
+}
